@@ -1,0 +1,31 @@
+This is README file for Algorithm PA#2
+Author: <YU-AN, CHEN B10703014>
+Date: 11/6
+=====
+SYNOPSIS:
+
+./mps <input_file_name> <output_file_name>
+
+This program solves the maximum planar subset with a given set of chords.
+=====
+DIRECTORY:
+
+bin/	  executable binary
+doc/	  reports
+inputs/   input data (set of chords)
+outputs/  output result (maximim planar subset of chords)
+src/ 	  source C++ codes
+utility/  checker
+======
+HOW TO COMPILE:
+
+simply follow the following steps
+	make
+======
+HOW TO RUN:
+
+    cd bin/
+	./mps <input_file_name> <output_file_name>
+	For example,
+	under b10703014_pa2/
+	./bin/mps ./inputs/1000.case1.in ./outputs/1000.case1.out
